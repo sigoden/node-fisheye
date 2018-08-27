@@ -1,0 +1,20 @@
+{
+  "name": "node-fisheye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "Sigoden Huang <sigoden@gmail.com> (https://sigoden.com/)",
+  "license": "MIT",
+  "gypfile": true,
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.4.0"
+  }
+}

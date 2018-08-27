@@ -1,0 +1,4 @@
+deps/*.tar.gz
+node_modules
+build
+*.log
