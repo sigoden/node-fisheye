@@ -1,2 +1,3 @@
-const fisheye = require( __dirname + "/build/Release/fisheye.node");
+const fisheye = require('bindings')('fisheye');
+
 module.exports = fisheye;
