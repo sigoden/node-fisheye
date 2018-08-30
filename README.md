@@ -33,13 +33,13 @@ npm install @sigodenjs/fisheye
 
 ### Prepare checkboard
 
-Download the [checkerboard pattern](doc/checkboard.webp) and print it on a paper (letter or A4 size). You also want to attach the paper to a hard, flat surface such as a piece of cardboard. The key here: straight lines need to be straight.
+Download the [checkerboard pattern](https://github.com/sigoden/node-fisheye/blob/master/doc/checkboard.webp?raw=true) and print it on a paper (letter or A4 size). You also want to attach the paper to a hard, flat surface such as a piece of cardboard. The key here: straight lines need to be straight.
 
 ### Take sample photos
 
 Hold the pattern in front of your camera and capture some images. You want to hold the pattern in different positions and angles. The key here: the patterns need to appear distorted in a different ways (so that OpenCV knows as much about your lens as possible). 
 
-![demo](doc/sample.png) 
+![demo](https://raw.githubusercontent.com/sigoden/node-fisheye/master/doc/sample.png) 
 
 ### Find K and D
 
@@ -58,4 +58,4 @@ let buf = fisheye.undistort(img, K, D);
 fs.writeFileSync('/tmp/IMG-0.jpg', buf);
 ```
 
-![before](example/samples/IMG-0.jpg) -> ![after](doc/IMG-0.jpg)
+![before](https://raw.githubusercontent.com/sigoden/node-fisheye/master/example/samples/IMG-0.jpg) --> ![after](https://raw.githubusercontent.com/sigoden/node-fisheye/master/doc/IMG-0.jpg)
