@@ -57,3 +57,5 @@ let img = fs.readFileSync('example/samples/IMG-0.jpg');
 let buf = fisheye.undistort(img, K, D);
 fs.writeFileSync('/tmp/IMG-0.jpg', buf);
 ```
+
+![before](example/samples/IMG-0.jpg) -> ![after](doc/IMG-0.jpg)
