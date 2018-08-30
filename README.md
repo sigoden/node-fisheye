@@ -59,3 +59,9 @@ fs.writeFileSync('/tmp/IMG-0.jpg', buf);
 ```
 
 ![before](https://raw.githubusercontent.com/sigoden/node-fisheye/master/example/samples/IMG-0.jpg) --> ![after](https://raw.githubusercontent.com/sigoden/node-fisheye/master/doc/IMG-0.jpg)
+
+## License
+
+Copyright (c) 2018 sigoden
+
+Licensed under the MIT license.
