@@ -1,6 +1,6 @@
 {
   "name": "@sigodenjs/fisheye",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A opencv fisheye camera model bindings for Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "node-gyp -j 8 rebuild",
     "clean": "node-gyp clean"
   },
-  "keywords": [],
+  "keywords": ["opencv", "fisheye", "camera", "calibrate", "undistort"],
   "author": "Sigoden Huang <sigoden@gmail.com> (https://sigoden.com/)",
   "license": "MIT",
   "gypfile": true,
