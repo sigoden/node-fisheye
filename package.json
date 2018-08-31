@@ -1,6 +1,6 @@
 {
   "name": "@sigodenjs/fisheye",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A opencv fisheye camera model bindings for Node.js",
   "main": "index.js",
   "scripts": {
