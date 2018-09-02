@@ -2,9 +2,6 @@ import { Buffer } from "buffer";
 export type Matx33d = Array<Array<Number>>;
 export type Vet4d = Array<Number>;
 
-type Opaque<T, K> = T & { __opaque__: K };
-type Int = Opaque<number, "Int">;
-
 // Calibrate result
 interface KD {
   // Camera matrix
@@ -21,8 +18,8 @@ interface KD {
  */
 export function calibrate(
   images: Buffer[],
-  checkboardWidth: Int,
-  checkboardHeight: Int
+  checkboardWidth: number,
+  checkboardHeight: number
 ): KD;
 
 // Options to control the generation of undistorted image.
@@ -35,7 +32,7 @@ interface UndistortExtra {
    * For PNG, it can be the compression level ( CV_IMWRITE_PNG_COMPRESSION ) from 0 to 9. A higher value means a smaller size and longer compression time. Default value is 3.
    * For WEBP, it can be a quality ( CV_IMWRITE_WEBP_QUALITY ) from 1 to 100 (the higher is the better). By default (without any parameter) and for quality above 100 the lossless compression is used.
    */
-  quantity?: Int;
+  quantity?: number;
   // Scale of the dest image
   scale?: number;
 }
